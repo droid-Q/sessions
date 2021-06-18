@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	DefaultKey  = "github.com/gin-contrib/sessions"
+	DefaultKey  = "github.com/droid-Q/sessions"
 	errorFormat = "[sessions] ERROR! %s\n"
 )
 
@@ -44,7 +44,7 @@ type Session interface {
 	Options(Options)
 	// Save saves all sessions used during the current request.
 	Save() error
-	
+
 	SessionId() string
 }
 

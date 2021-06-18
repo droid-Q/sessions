@@ -1,7 +1,7 @@
 package cookie
 
 import (
-	"github.com/gin-contrib/sessions"
+	"github.com/droid-Q/sessions"
 	gsessions "github.com/gorilla/sessions"
 )
 

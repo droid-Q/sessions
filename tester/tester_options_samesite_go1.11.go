@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gin-contrib/sessions"
+	"github.com/droid-Q/sessions"
 	"github.com/gin-gonic/gin"
 )
 

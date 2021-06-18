@@ -3,8 +3,8 @@ package cookie
 import (
 	"testing"
 
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/tester"
+	"github.com/droid-Q/sessions"
+	"github.com/droid-Q/sessions/tester"
 )
 
 var newStore = func(_ *testing.T) sessions.Store {

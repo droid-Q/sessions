@@ -3,8 +3,8 @@ package redis
 import (
 	"testing"
 
-	"github.com/gin-contrib/sessions"
-	"github.com/gin-contrib/sessions/tester"
+	"github.com/droid-Q/sessions"
+	"github.com/droid-Q/sessions/tester"
 )
 
 const redisTestServer = "localhost:6379"

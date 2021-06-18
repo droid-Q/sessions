@@ -4,7 +4,7 @@ import (
 	"errors"
 
 	"github.com/boj/redistore"
-	"github.com/gin-contrib/sessions"
+	"github.com/droid-Q/sessions"
 	"github.com/gomodule/redigo/redis"
 )
 
